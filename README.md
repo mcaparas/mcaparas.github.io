@@ -1,6 +1,6 @@
 # mcaparas.github.io
 
-A **Hugo-based** static portfolio website showcasing performances and scientific projects. This project uses the [Adritian Free Hugo Theme](https://github.com/adritian/adritian-free-hugo-theme).
+A **Hugo-based** static portfolio website showcasing performances and scientific projects.
 
 ## Table of Contents
 
