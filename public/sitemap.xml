@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:59903/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/performance/performance-1/</loc>
+    <loc>http://localhost:59903/performance/performance-1/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/performance/</loc>
+    <loc>http://localhost:59903/performance/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/performance/performance-2/</loc>
+    <loc>http://localhost:59903/performance/performance-2/</loc>
     <lastmod>2024-04-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/science/science-1/</loc>
+    <loc>http://localhost:59903/science/science-1/</loc>
     <lastmod>2023-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/science/</loc>
+    <loc>http://localhost:59903/science/</loc>
     <lastmod>2023-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:59903/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:59903/tags/</loc>
   </url>
 </urlset>
