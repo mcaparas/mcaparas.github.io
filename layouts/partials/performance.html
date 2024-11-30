@@ -1,0 +1,148 @@
+{{/* Used for the performance section in the homepage */}}
+{{/* If some content is missing/not displayed, check the images for the performance */}}
+
+{{ if .Site.Data.homepage.performance.enable }}
+<section id="performance" class="section section--border-bottom">
+  <div class="container performance-container">
+    <h2 class="rad-animation-group rad-fade-down">
+      {{ i18n "performance_title" }}
+    </h2>
+
+    {{/* Projects */}}
+    {{ $projects := (where .Site.RegularPages.ByDate.Reverse "Type" "performance") }}
+    {{ range $index, $element := $projects }}
+      {{ $is_even := eq (mod $index 2) 0 }}
+      {{ with $element }}
+        <div
+          class="row row--padded rad-animation-group rad-fade-down
+          {{ if $is_even }}flex-column-reverse flex-md-row even-row{{ else }}uneven-row{{ end }}"
+        >
+          {{ if $is_even }}
+            <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
+              <h3>{{ .Params.title }}</h3>
+              <p class="lead">
+                {{ .Content }}
+              </p>
+            </div>
+            <div class="col-12 col-md-7 pl-md-0 text-right">
+              {{ if and .Params.video .Params.videoProvider }}
+                {{ if eq (lower .Params.videoProvider) "youtube" }}
+                  <!-- Display YouTube video -->
+                  <div class="video-container">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/{{ .Params.video }}"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                {{ else if eq (lower .Params.videoProvider) "vimeo" }}
+                  <!-- Display Vimeo video -->
+                  <div class="video-container">
+                    <iframe
+                      src="https://player.vimeo.com/video/{{ .Params.video }}"
+                      width="100%"
+                      height="100%"
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                {{ else }}
+                  <!-- Unsupported video provider -->
+                  <p>Unsupported video provider: {{ .Params.videoProvider }}</p>
+                {{ end }}
+              {{ else }}
+                <!-- Display image as before -->
+                {{ $img := resources.Get .Params.image.x }}
+                {{ $img2x := resources.Get .Params.image._2x }}
+                {{ with $img }}
+                  {{ with $img2x }}
+                    {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+                    {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+                    <picture class="picture even">
+                      <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                      <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/jpeg">
+                      <img
+                        class="lozad img-responsive"
+                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                        srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                        data-src="{{ $img.RelPermalink }}"
+                        data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                        alt="{{ .Params.title }}"
+                      />
+                    </picture>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ else }}
+            <div class="col-12 col-md-7 pl-md-0 text-right not-even">
+              {{ if and .Params.video .Params.videoProvider }}
+                {{ if eq (lower .Params.videoProvider) "youtube" }}
+                  <!-- Display YouTube video -->
+                  <div class="video-container">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/{{ .Params.video }}"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                {{ else if eq (lower .Params.videoProvider) "vimeo" }}
+                  <!-- Display Vimeo video -->
+                  <div class="video-container">
+                    <iframe
+                      src="https://player.vimeo.com/video/{{ .Params.video }}"
+                      width="100%"
+                      height="100%"
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                {{ else }}
+                  <!-- Unsupported video provider -->
+                  <p>Unsupported video provider: {{ .Params.videoProvider }}</p>
+                {{ end }}
+              {{ else }}
+                <!-- Display image as before -->
+                {{ $img := resources.Get .Params.image.x }}
+                {{ $img2x := resources.Get .Params.image._2x }}
+                {{ with $img }}
+                  {{ with $img2x }}
+                    {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+                    {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+                    <picture class="picture odd">
+                      <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                      <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/jpeg">
+                      <img
+                        class="lozad img-responsive"
+                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                        srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                        data-src="{{ $img.RelPermalink }}"
+                        data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                        alt="{{ .Params.title }}"
+                      />
+                    </picture>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+              <h3>{{ .Params.title }}</h3>
+              <p class="lead">
+                {{ .Content }}
+              </p>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

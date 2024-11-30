@@ -1,0 +1,40 @@
+## Looking for strings? Check the i18n folder.
+
+# showcase
+showcase:
+  enable: false
+
+
+about:
+  enable: true
+  button:
+    icon: "icon-user"
+    URL: "https://www.linkedin.com/in/monica-caparas-2a3066160/"
+  image:
+    x: "images/about/user-picture.png"
+    _2x: "images/about/user-picture@2x.png"
+
+education:
+  enable: false
+
+# experience
+experience:
+  enable: false
+
+science:
+  enable: true
+
+client_and_work:
+  enable: false
+
+performance:
+  enable: true
+
+testimonial:
+  enable: false
+
+contact:
+  enable: false
+
+newsletter:
+  enable: false

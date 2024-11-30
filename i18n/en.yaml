@@ -1,0 +1,44 @@
+## Header
+- id: "logo_text1"
+  translation: "Monica"
+
+- id: "logo_text2"
+  translation: "Caparas"
+
+## Footer
+- id: "footer_notice"
+  translation: "this is that bitch"
+
+- id: "language"
+  translation: "Language"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Monica Caparas"
+
+- id: "head_description"
+  translation: "sup bitches"
+
+## Homepage about
+- id: "about_title"
+  translation: "Who am I? That bitch"
+
+- id: "about_content"
+  translation: |
+    <p class="lead">
+      My past research has examined the impact of climate change in the tropics, looking at changes in atmospheric circulation, extreme precipitation, and water-stressed forest phenology. I use climate models, big data analysis, and data visualizations to understand climate risks and impacts. I hold a B.Sc. in mathematical geophysics with a focus on climate modeling from Brown University.
+    </p>
+    <p class="lead">
+      Prior to joining Woodwell Climate, I was a professional dancer and aerialist. I love training multiple circus art disciplines, advocating for social justice, warm water scuba diving, and working from home with my dogs in Las Vegas, NV.
+    </p>
+
+## Homepage science
+- id: "science_title"
+  translation: "Science"
+
+- id: "science_description"
+  translation: "I am like a super scientiest"
+
+## Homepage performance
+- id: "performance_title"
+  translation: "Performances"
