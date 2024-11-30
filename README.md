@@ -1,6 +1,6 @@
 # mcaparas.github.io
 
-A **Hugo-based** static portfolio website showcasing performances and scientific projects. This project uses the [Adritian Free Hugo Theme](https://github.com/adritian/adritian-free-hugo-theme).
+A **Hugo-based** static portfolio website showcasing performances and scientific projects.
 
 ## Table of Contents
 
@@ -47,6 +47,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/mcaparas/mcaparas.github.io.git
 cd mcaparas.github.io
+git submodule add https://github.com/zetxek/adritian-free-hugo-theme.git themes/adritian-free-hugo-theme
+git submodule update --init --recursive
 ```
 
 ## Running the Development Server
