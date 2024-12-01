@@ -1,4 +1,6 @@
-# mcaparas.github.io
+# [mcaparas.github.io](https://mcaparas.github.io)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f3b3b7b-1b7e-4b7b-8b7b-1b7b7b7b7b7b/deploy-status)](https://app.netlify.com/sites/mcaparas/deploys)
 
 A **Hugo-based** static portfolio website showcasing performances and scientific projects.
 
