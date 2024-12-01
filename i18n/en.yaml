@@ -31,14 +31,38 @@
     <p class="lead">
       Prior to joining Woodwell Climate, I was a professional dancer and aerialist. I love training multiple circus art disciplines, advocating for social justice, warm water scuba diving, and working from home with my dogs in Las Vegas, NV.
     </p>
+#
+### Homepage science
+#- id: "science_title"
+#  translation: "Science"
+#
+#- id: "science_description"
+#  translation: "I am like a super scientiest"
 
 ## Homepage science
 - id: "science_title"
-  translation: "Science"
+  translation: "science"
 
 - id: "science_description"
-  translation: "I am like a super scientiest"
+  translation: "This is where you can highlight a bit over your science. Years of total science, specialization, etc."
 
+- id: "science_button"
+  translation: "LinkedIn"
+
+- id: "science_button_url"
+  translation: "https://www.linkedin.com/in/adrianmoreno/"
+
+- id: "science_button2"
+  translation: "Download resume"
+
+- id: "science_button2_url"
+  translation: "/img/general/user-smile-fill.svg"
+
+- id: "science_button3"
+  translation: "View all"
+
+- id: "science_button3_url"
+  translation: "/science"
 ## Homepage performance
 - id: "performance_title"
   translation: "Performances"

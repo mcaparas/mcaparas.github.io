@@ -1,13 +1,14 @@
 ---
 date: 2023-12-01T00:00:00+01:00
 draft: false
-title: "Job #2"
-jobTitle: "Chief Intern"
-company: "Internet Affairs Inc. "
-location: "Stavanger, Norway"
-duration: "2023-2024"
-
+title: "Revolutionizing Climate Data with my asshole"
+summary: "A novel approach to processing and visualizing global climate data with my butt."
+year: "2023"
+pdf: "/science/science-1.pdf"
 ---
-### Fixing the world, one byte at a time
 
-Continuing the quest. 
+## Introduction
+this is my intro
+
+## Methods
+This project is rad.
