@@ -26,9 +26,11 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
-      # Step 4.4: Deploy to GitHub Pages
+      # Step 2.4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          # Optional: Cleanup old files
+          force_orphan: true
