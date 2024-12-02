@@ -7,7 +7,7 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "this is that bitch"
+  translation: "Made with love by Joshua Coronado"
 
 - id: "language"
   translation: "Language"
@@ -17,11 +17,11 @@
   translation: "Monica Caparas"
 
 - id: "head_description"
-  translation: "sup bitches"
+  translation: ""
 
 ## Homepage about
 - id: "about_title"
-  translation: "Who am I? That bitch"
+  translation: "About me"
 
 - id: "about_content"
   translation: |
@@ -41,7 +41,7 @@
 
 ## Homepage science
 - id: "science_title"
-  translation: "science"
+  translation: "Science"
 
 - id: "science_description"
   translation: "This is where you can highlight a bit over your science. Years of total science, specialization, etc."
@@ -63,6 +63,7 @@
 
 - id: "science_button3_url"
   translation: "/science"
+
 ## Homepage performance
 - id: "performance_title"
   translation: "Performances"
