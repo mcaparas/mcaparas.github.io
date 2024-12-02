@@ -7,4 +7,4 @@ params:
   videoProvider: "youtube" 
 ---
 
-This is my performance, in it i became a white man and sung you lullabies.
+Choreographer and dancer 

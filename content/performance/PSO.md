@@ -7,4 +7,4 @@ params:
   videoProvider: "youtube"
 ---
 
-This is my other performance performance. the one that is the most heartfelt. it accurately reflects the loves in my life.
+Choreographer and dancer
