@@ -1,5 +1,5 @@
 ---
-date: 2023-12-01T00:00:00+01:00
+date: 2024-12-01T00:00:00+01:00
 draft: false
 title: "Revolutionizing Climate Data with my asshole"
 summary: "A novel approach to processing and visualizing global climate data with my butt."

@@ -1,9 +1,9 @@
 ---
-date: '2024-08-25T09:53:42+02:00'
-title: 'my first performance'
+date: '2023-11-01T09:53:42+02:00'
+title: 'Shine Showcase'
 draft: false
 params:
-  video: "dQw4w9WgXcQ" 
+  video: "ZgazB37jGCY" 
   videoProvider: "youtube" 
 ---
 
