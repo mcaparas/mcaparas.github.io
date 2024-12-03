@@ -6,5 +6,4 @@ summary: "Brown University undergraduate thesis"
 year: "2017"
 pdf: "/science/ResponseOfTropicalPrecipitationExtremes_Brown.pdf"
 ---
-# Summary
-Brown University undergraduate thesis.
+### Project summary

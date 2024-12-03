@@ -22,7 +22,7 @@ theme = "adritian-free-hugo-theme"
         weight = 3
 
       [[languages.en.menus.header]]
-      name = "Performance"
+      name = "Movement"
       URL = "#performance"
       weight = 4
 
