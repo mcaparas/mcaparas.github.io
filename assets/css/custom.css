@@ -96,3 +96,7 @@ height: 100%;
     }
 }
 
+/* Colors of "Monica" */
+.header .navbar-brand span:first-child {
+    color: #a0584c !important; /* Use !important to ensure it takes precedence */
+}
