@@ -29,8 +29,7 @@
                 {{ if gt $xpCount $totalCount }}
                 <div class="all-science-container">
                     {{ $xpExtra := sub $xpCount $totalCount }}
-                    <em>And {{ $xpExtra }} more</em><br />
-
+                   <a href="/science/crs/"> <em>And {{ $xpExtra }} more</em></a><br />
                 </div>
                 {{ end }}
             </div>
