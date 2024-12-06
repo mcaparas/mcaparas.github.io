@@ -31,6 +31,15 @@ theme = "adritian-free-hugo-theme"
         URL = "#about"
         weight = 2
 
+      [[languages.en.menus.footer]]
+        name = 'Science'
+        URL = '#science'
+        weight = 3
+
+      [[languages.en.menus.footer]]
+      name = "Movement"
+      URL = "#performance"
+      weight = 4
 # Plugins
 [params.plugins]
 

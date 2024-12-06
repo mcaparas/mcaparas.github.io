@@ -7,7 +7,7 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "Made with love by Joshua Coronado"
+  translation: 'Made with love by <a href="https://www.linkedin.com/in/joshuajcoronado/" target="_blank">Joshua Coronado</a>'
 
 - id: "language"
   translation: "Language"
