@@ -109,3 +109,15 @@ height: 100%;
 .performance-titles {
   color: #a0584c;
 }
+
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child{
+    color: #a0584c;
+}
+.header .container{
+    padding-left: 10px;
+}
+
+html body ::selection{
+    background-color:#a0584c;color:#fff
+}

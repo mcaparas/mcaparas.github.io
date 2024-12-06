@@ -1,5 +1,5 @@
 # things to change!
-[ ] change the highlight color to #a0584c
+[x] change the highlight color to #a0584c
 [x] change the title's of "movement" to the green color (like science)
 [ ] change the body of "movement" to the red color #a0584c (do we still want to do this?)
 [x] remove footer OR add science and movement
