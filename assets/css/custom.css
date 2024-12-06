@@ -27,7 +27,7 @@
 .science__summary {
     font-size: 14px;
     font-weight: 400;
-    color: #5A5A5A;
+    color: #a0584c;
 }
 
 .science.selected a,
@@ -36,7 +36,7 @@
 .science a:hover,
 .science a:active {
     display: block;
-    background-color: #478079;
+    background-color: #a0584c;
     color: white;
     text-decoration: none;
 }
@@ -86,7 +86,7 @@ height: 100%;
 }
 
 .pdf-download a {
-    color: #478079;
+    color: #a0584c;
     text-decoration: underline;
 }
 
