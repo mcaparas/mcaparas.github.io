@@ -16,6 +16,7 @@
     font-size: 20px;
     font-weight: 600;
     z-index: 2;
+    color: #a0584c;
 }
 
 @media (min-width: 992px) {
@@ -27,7 +28,7 @@
 .science__summary {
     font-size: 14px;
     font-weight: 400;
-    color: #a0584c;
+    color: #fff;
 }
 
 .science.selected a,
@@ -120,4 +121,33 @@ height: 100%;
 
 html body ::selection{
     background-color:#a0584c;color:#fff
+}
+
+
+/* Change science title color to white on hover */
+.science__title:hover {
+    color: #ffffff !important;
+}
+
+.science:hover .science__title {
+    color: #ffffff !important;
+}
+
+/* Change science title color to white when selected */
+.science.selected .science__title {
+    color: #ffffff !important;
+}
+
+/* Make "And 3 more" link the same red color */
+.all-science-container a {
+    color: #a0584c !important;
+    text-decoration: none;
+}
+
+.all-science-container a:hover {
+    color: #822c3a !important;
+}
+
+a:hover {
+  color: #822c3a !important;
 }
