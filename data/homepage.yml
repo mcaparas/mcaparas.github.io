@@ -8,8 +8,8 @@ showcase:
 about:
   enable: true
   button:
-    icon: "icon-user"
-    URL: "https://www.linkedin.com/in/monica-caparas-2a3066160/"
+    icon: "icon-email"
+    URL: "mailto:monica.caparas18@gmail.com"
   images:
     - x: "images/about/user-picture.png"
       _2x: "images/about/user-picture@2x.png"
