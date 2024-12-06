@@ -4,4 +4,4 @@
 [ ] change the body of "movement" to the red color #a0584c
 [ ] remove footer OR add science and movement
 [ ] add a contact button to the about me
-[ ] change about me title to "Who am I?"
+[x] change about me title to "Who am I?"
