@@ -11,13 +11,13 @@ about:
     icon: "icon-email"
     URL: "mailto:monica.caparas18@gmail.com"
   images:
-    - x: "images/about/user-picture.png"
-      _2x: "images/about/user-picture@2x.png"
-    - x: "images/about/sit.png"
-      _2x: "images/about/sit@2x.png"
-    - x: "images/about/dance.png"
-      _2x: "images/about/dance@2x.png"    
-
+    - x: "images/about/dance2.png"
+      _2x: "images/about/dance2@2x.png"
+    - x: "images/about/fish.png"
+      _2x: "images/about/fish@2x.png"
+    - x: "images/about/zu.png"
+      _2x: "images/about/zu@2x.png"
+      
 education:
   enable: false
 
