@@ -26,13 +26,18 @@
 - id: "about_content"
   translation: |
     <p class="lead">
-      My past research has examined the impact of climate change in the tropics, looking at changes in atmospheric circulation, extreme precipitation, and water-stressed forest phenology. I use climate models, big data analysis, and data visualizations to understand climate risks and impacts. I hold a B.Sc. in mathematical geophysics with a focus on climate modeling from Brown University.
+      Welcome! I’m Monica Caparas—a climate change researcher, movement artist, and justice advocate dedicated to addressing the intersection of societal and environmental systems.
     </p>
     <p class="lead">
-      Prior to joining Woodwell Climate, I was a professional dancer and aerialist. I love training multiple circus art disciplines, advocating for social justice, warm water scuba diving, and working from home with my dogs in Las Vegas, NV.
+      My scientific career is grounded in cross-disciplinary collaborations that blend rigorous research with community-driven solutions to tackle some of the world’s most pressing challenges. As a dancer and aerialist, I explore creative expression as a way to process and reflect on the complexities of the world around us.
+    </p>
+    <p class="lead">
+      Rooted in my lived experiences as a first-generation college graduate and queer child of Filipino immigrants, I bring a unique perspective shaped by navigating inequities and diverse cultural landscapes.
+    </p>
+    <p class="lead">
+      Join me in building a future where science, art, and equity intersect to create a more just and sustainable world.
     </p>
 
-#
 ### Homepage science
 #- id: "science_title"
 #  translation: "Science"
@@ -48,10 +53,10 @@
 #  translation: "I analyze and visualize physical climate risks to inform data-driven solutions for climate resiliency, adaptation, and planning as a Research Associate in the Climate Risk Program at the Woodwell Climate Research Center. I collaborate with global and local stakeholders—including governments, nonprofits, and private industries—to co-design strategies that address climate change impacts across various sectors. With expertise in climate and geospatial data analysis and visualization, I strive to bridge the gap between complex data and actionable insights."
   translation: |
     <p class="lead">
-      My past research has examined the impact of climate change in the tropics, looking at changes in atmospheric circulation, extreme precipitation, and water-stressed forest phenology. I use climate models, big data analysis, and data visualizations to understand climate risks and impacts. I hold a B.Sc. in mathematical geophysics with a focus on climate modeling from Brown University.
+      I analyze and visualize physical climate risks to inform data-driven solutions for climate resiliency, adaptation, and planning as a Research Associate in the Climate Risk Program at <a href="https://www.woodwellclimate.org/" target="_blank">Woodwell Climate Research Center</a>. 
     </p>
     <p class="lead">
-      Prior to joining Woodwell Climate, I was a professional dancer and aerialist. I love training multiple circus art disciplines, advocating for social justice, warm water scuba diving, and working from home with my dogs in Las Vegas, NV.
+      I collaborate with global and local stakeholders—including governments, nonprofits, and private industries—to co-design strategies that address climate change impacts across various sectors. With expertise in climate systems and geospatial data analysis, I strive to bridge the gap between complex data and actionable insights.
     </p>
 - id: "science_button"
   translation: "LinkedIn"
