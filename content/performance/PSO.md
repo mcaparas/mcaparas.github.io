@@ -1,6 +1,6 @@
 ---
 date: '2018-10-01T09:53:42+02:00'
-title: 'Pole Sports Mountain'
+title: 'Pole Sports Organization Mountain'
 draft: false
 params:
   video: "SllLozDAmOI"
